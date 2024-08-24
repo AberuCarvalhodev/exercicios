@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.imagem-fundo {
+    height: 96vh;
+    border: 1px solid black;
+    background-image: url('../imagens/aberu.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
