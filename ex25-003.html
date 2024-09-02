@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>Testes de Formulários</h1>
+    <hr>
     <form action="cadastro.php" method="get" autocomplete="on">
         <p>
            <label for="inome">Nome: </label>
@@ -16,10 +17,13 @@
             <label for="imedia">Média: </label>
             <input type="number" name="media" id="imedia" placeholder="0 à 10" required step="0.1">
         </p>
+        <label for="idata">Data de Nascimento: </label>
+        <input type="date" name="Data" id="idata">
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
         </p>
+
     </form>
 </body>
 </html>
