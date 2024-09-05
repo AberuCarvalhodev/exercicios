@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+* {
+    margin: 10PX;
+    padding: 10PX;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+menu {
+    display: none;
+}
+
+p {
+    text-indent: 30px;
+    text-align: justify;
+}
+
+article::after {
+    content: 'Este artigo foi retirado do site mundopequeno.netlify.app';
+}
