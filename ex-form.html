@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+        <title>Form</title>
+        
+    </head>
+        <h1>Treinamento de Formulários</h1>
+        <form action="cadastro.php" method="get">
+            <fieldset>
+                <legend>Dados Pessoal</legend>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" required maxlength="30" autocomplete="nome" placeholder="Digitr seu Nome Completo"> <br>
+                <label for="isexo">Sexo: </label>
+                <input type="radio" name="sexo" id="isexmas" value="M"> <label for="isexmas">Masculino</label>
+                <input type="radio" name="sexo" id="isexfem" value="F"> <label for="isexfem">Feminino</label>
+                <input type="radio" name="sexo" id="isexout" checked value="O"> <label for="isexout">Outro</label> <br>
+                <label for="idata">Data de Nasc.</label>
+                <input type="date" name="data" id="idata">
+            </fieldset>
+            <fieldset>
+                <legend>dados Postais</legend>
+                <label for="iend">Endereço: </label>
+                <input type="text" name="end" id="iend" maxlength="60" minlength="5" placeholder="Digite o nome da sua rua"> 
+                <label for="icep">CEP: </label>
+                <input type="number" name="cep" id="icep" pattern="^\d{5}-\d{3}$" placeholder="00000-000">
+
+            </fieldset>
+            <fieldset>
+                <legend>Profissional</legend>
+                <h5>Experiências Anteriores</h5>
+        
+                <p>
+                    <label for="exp1">Local: </label>
+                    <input type="text" maxlength="60" placeholder="Local onde Trabalhou"> <br>
+                    <label for="iini1">Início: </label>
+                    <input type="date" name="data" id="iini1">
+                    <label for="iter1">Termino: </label>
+                    <input type="date" name="data" id="iter1">
+                </p>
+                <p>
+                    <label for="exp1">Local: </label>
+                    <input type="text" maxlength="60" placeholder="Local onde Trabalhou"> <br>
+                    <label for="iini1">Início: </label>
+                    <input type="date" name="data" id="iini1">
+                    <label for="iter1">Termino: </label>
+                    <input type="date" name="data" id="iter1">
+                </p>
+                <p>
+                    <label for="exp1">Local: </label>
+                    <input type="text" maxlength="60" placeholder="Local onde Trabalhou"> <br>
+                    <label for="iini1">Início: </label>
+                    <input type="date" name="data" id="iini1">
+                    <label for="iter1">Termino: </label>
+                    <input type="date" name="data" id="iter1">
+                </p>
+                <p> &#x2714; experiências anteriores serão um diferencial</p>
+            </fieldset>
+            <p><input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+            </p>
+        </form>
+    <body>
+        
+    </body>
+</html>
