@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* 
+****** TYPICAL DEVICE BRACKPOINT****
+Até 600px
+600px à 768px
+768px à 992px
+992px à 1200px
+1200px para mais
+
+*/
+
+@media screen and (min-width: 768px) {
+    #burger {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+    
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    main {
+        width: 768px;
+    }
+}

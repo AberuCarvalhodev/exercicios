@@ -52,10 +52,12 @@ menu a:hover {
 }
 
 main {
-    width: 95vw;
+    width: 93vw;
     background-color: white;
     margin: auto;
     margin-top: 5px;
+    
+    
     border-radius: 10px;
     padding: 10px;
     text-align: justify;
